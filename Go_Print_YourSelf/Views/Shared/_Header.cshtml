@@ -1,0 +1,41 @@
+﻿<div class="container-fluid relative">
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="row">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <div class="col-lg-11 col-centered">
+                        <div class="col-xs-9 col-sm-3 col-md-3 col-lg-4 col-lg-push-1">
+                            <a href='@Url.Action("Index", "Home")'><img src="~/Content/Images/logo.png" /></a>
+                        </div>
+                        <div class="container-fluid border-bottom"></div>
+                        <div class="col-sm-9 col-sm-push-1 col-md-9 col-md-push-1 col-lg-6 col-lg-push-2 offset-top">
+                            <div class="navbar-collapse collapse">
+                                <ul class="nav navbar-nav">
+                                    <li>@Html.ActionLink("gpy", "gpy", "Home")</li>
+                                    <li>@Html.ActionLink("start", "start", "Home")</li>
+                                    <li>@Html.ActionLink("products", "products", "Home")</li>
+                                    <li>@Html.ActionLink("diy", "diy", "Home")</li>
+                                    <li>@Html.ActionLink("news", "news", "Home")</li>
+                                    <li>@Html.Partial("_LoginPartial")</li>
+                                    <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid relative header-image">
+    <img src="~/Content/Images/header_bottom_bg.png" />
+    <a href='@Url.Action("","")' class="link1"></a>
+    <a href='@Url.Action("","")' class="link2"></a>
+    <a href='@Url.Action("","")' class="link3"></a>
+</div>
+

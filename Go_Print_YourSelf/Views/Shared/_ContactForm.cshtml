@@ -1,0 +1,59 @@
+﻿
+@model Go_Print_YourSelf.Models.ContactForm
+@{
+    ViewBag.Title = "A Couple Things...";
+}
+
+@using (Html.BeginForm("_ContactForm", "Home"))
+{
+    @Html.AntiForgeryToken()
+    <h2>@ViewBag.Title.</h2>
+    <div class="form-horizontal">
+        <div class="form-group">
+            <div class="col-md-10">
+                @Html.TextBoxFor(m => m.FullName, new { @class = "form-control", required = "required", placeholder = "Full Name" })
+                @Html.ValidationMessageFor(m => m.FullName)
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-10">
+                @Html.TextBoxFor(m => m.WebsiteFacebook, new { @class = "form-control", required = "required", placeholder = "Website/Facebook Url" })
+                @Html.ValidationMessageFor(m => m.WebsiteFacebook)
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-10">
+                @Html.TextBoxFor(m => m.Email, new { @class = "form-control", required = "required", placeholder = "Email" })
+                @Html.ValidationMessageFor(m => m.Email)
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-10">
+                @Html.TextBoxFor(m => m.CompanyName, new { @class = "form-control", required = "required", placeholder = "Company Name" })
+                @Html.ValidationMessageFor(m => m.CompanyName)
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-10">
+                @Html.TextBoxFor(m => m.Position, new { @class = "form-control", required = "required", placeholder = "Position" })
+                @Html.ValidationMessageFor(m => m.Position)
+            </div>
+        </div>
+        <div class="form-group relative">
+            <div class="col-xs-10 col-sm-8 col-sm-push-4 col-md-8 col-md-push-2 col-lg-8 col-lg-push-2">
+                <button type="submit" class="arrow-button" value="Send Me A Free Design" >Send Me Free Design!!!</button>
+                <div class="line-sec">
+                    <span class="border-line"></span>
+                    <span class="border-line"></span>
+                    <span class="border-line"></span>
+                    <span class="border-line"></span>
+                    <span class="border-line"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
