@@ -217,6 +217,9 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Images\birdAfter_12.png" />
+    <Content Include="Content\Images\birdBefore_12.png" />
+    <Content Include="Content\Images\four-square.png" />
     <Content Include="Content\Images\header_bottom_bg.png" />
     <Content Include="Content\Images\logo.png" />
     <Content Include="Content\Site.css">
@@ -237,7 +240,7 @@
     <Content Include="Content\scss\ContactForm.scss" />
     <Content Include="Content\scss\Typography.scss" />
     <Content Include="Content\scss\about.scss" />
-    <Content Include="Content\scss\imageSectionscss.scss" />
+    <Content Include="Content\scss\imageSection.scss" />
     <None Include="Content\Site.scss" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />

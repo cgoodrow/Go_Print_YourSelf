@@ -27,8 +27,8 @@ namespace Go_Print_YourSelf.Controllers
             {
                 var body = "Name: {0} <br />  Email: {1} <br /> Website/Facebook: {2} <br />  Company Name: {3} <br /> Position: {4} ";
                 var message = new SendGridMessage();
-                message.AddTo("goodrow.chris4@gmail.com");  // replace with valid value 
-                message.From = new MailAddress("goodrow.chris4@gmail.com");  // replace with valid value
+                message.AddTo("connerg@goprintyourself.com");  // replace with valid value 
+                message.From = new MailAddress("connerg@goprintyourself.com");  // replace with valid value
                 message.Subject = "Go Print Yourself";
                 message.Html = string.Format(body, model.FullName, model.Email, model.WebsiteFacebook, model.CompanyName, model.Position);
                 //Azure credentials
