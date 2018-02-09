@@ -201,6 +201,9 @@ hr {
     @media (max-width: 767px) {
       .contact .number-sec .text-sec {
         margin-left: 55px; } }
+    @media (max-device-width: 480px) {
+      .contact .number-sec .text-sec {
+        margin-left: 54px; } }
     .contact .number-sec .text-sec .circle-num {
       position: absolute;
       left: -28.5px;

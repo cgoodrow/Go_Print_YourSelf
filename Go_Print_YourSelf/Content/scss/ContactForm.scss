@@ -94,6 +94,10 @@
                 margin-left: 55px;
             }
 
+            @media (max-device-width: 480px) {
+                margin-left: 54px;
+            }
+
             .circle-num {
                 position: absolute;
                 left: -28.5px;
