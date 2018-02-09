@@ -248,6 +248,10 @@
     .line-sec {
         transform: translate(120%, 15%);
 
+        @media (max-width: 1024px) {
+            transform: translate(119.6%, 13%);
+        }
+
         @media (max-width: 900px) {
             transform: translate(126.5%, 13%);
         }
