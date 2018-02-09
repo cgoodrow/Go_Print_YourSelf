@@ -2,6 +2,7 @@
 body {
     padding-top: 50px;
     padding-bottom: 20px;
+    background-color: #fcf8ee;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -9,6 +10,11 @@ body {
     padding-left: 15px;
     padding-right: 15px;
     margin-top: 50px;
+}
+
+footer {
+    height: 30px;
+    background-color: #b5b5b5;
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 

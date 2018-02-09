@@ -82,7 +82,7 @@
 
                 @media (max-width: 767px) {
                     font-size: 24px;
-                    padding: 15px 8px;
+                    padding: 15px 28px;
                     border-top: solid 1px #dadada;
                 }
             }
@@ -117,11 +117,7 @@
 .header-image {
     img {
         width: 100%;
-        margin-top: 75px;
-
-        @media (max-width: 480px) {
-            margin-top: 65px;
-        }
+        margin-top: 49px;      
     }
 
     .link1 {

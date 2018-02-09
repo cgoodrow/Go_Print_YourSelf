@@ -236,6 +236,8 @@
     <Content Include="Content\scss\Global.scss" />
     <Content Include="Content\scss\ContactForm.scss" />
     <Content Include="Content\scss\Typography.scss" />
+    <Content Include="Content\scss\about.scss" />
+    <Content Include="Content\scss\imageSectionscss.scss" />
     <None Include="Content\Site.scss" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />

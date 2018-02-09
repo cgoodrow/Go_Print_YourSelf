@@ -1,0 +1,55 @@
+﻿.image-collage {
+    margin-top: 25px;
+
+    img {
+        width: 100%;
+        box-shadow: 0 -8px 3.1px #e0dbd0;
+
+        @media (max-width: 767px) {
+            box-shadow: none;
+
+            &.first {
+                box-shadow: 0 -8px 3.1px #e0dbd0;
+            }
+        }
+    }
+
+    .col-xs-10 {
+        @media (max-width: 767px) {
+            margin: 0 auto;
+            display: block;
+            float: none;
+        }
+    }
+}
+
+.four-square {
+    img {
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+        float: none;
+    }
+
+    @media (max-width: 767px) {
+        .col-xs-10 {
+            margin: 0 auto;
+            display: block;
+            float: none;
+        }
+    }
+}
+
+.bird-section {
+    img {
+        width: 100%;
+    }
+
+    h2 {
+        width: 59%;
+
+        @media (max-width: 767px) {
+            width: 100%;
+        }
+    }
+}

@@ -1,4 +1,6 @@
 ﻿
+@import "Typography.scss";
+
 .relative {
     position: relative;
     width: 100%;
@@ -8,4 +10,24 @@
     margin: 0 auto;
     display: block;
     float: none;
+}
+
+h2 {
+    color: #05315a;
+    font-weight: $font-bold;
+    font-style: $italics;
+    border-bottom: 2px solid #b5b5b5;
+}
+
+p {
+    color: #05315a;
+}
+
+hr {
+    border-top: 2px solid #b5b5b5
+}
+
+.no-gutters {
+    padding-right: 0;
+    padding-left: 0;
 }

@@ -1,0 +1,70 @@
+﻿.about {
+
+    .about-section {
+        transform: translate(0, 4%);
+
+        @media (max-width: 767px) {
+            transform: translate(0, 0);
+            margin: 0 auto;
+            display: block;
+            float: none;
+        }
+
+        @media (max-width: 480px) {
+            width: 100%;
+        }
+    }
+
+    .btn-wrapper {
+        width: 100%;
+        margin-top: 5%;
+
+
+        .btn-default {
+            width: 130px;
+            margin: 0 auto;
+            display: block;
+            padding: 4px 8px;
+            font-size: 18px;
+            color: #05315a;
+            border-color: #05315a;
+        }
+    }
+
+    .image-sec {
+
+        @media (max-width: 767px) {
+            margin: 0 auto;
+            float: none;
+            display: block;
+        }
+
+        @media (max-width: 480px) {
+            width: 100%;
+        }
+
+        img {
+            width: 100%;
+            max-width: 478px;
+            margin-top: -35px;
+
+            @media (max-width: 767px) {
+                margin-top: 0;
+                margin: 0 auto;
+                display: block;
+                float: none;
+            }
+        }
+    }
+
+
+    @media (max-width: 1000px) and (min-width: 768px) {
+        p {
+            font-size: 14px;
+        }
+
+        .about-section {
+            transform: translate(0, -1%);
+        }
+    }
+}
